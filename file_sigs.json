@@ -1,0 +1,4922 @@
+[
+    {
+        "desc": "Generic JPEG Image file",
+        "header": "FF D8",
+        "ext": "JPE|JPEG|JPG",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": "FF D9"
+    },
+    {
+        "desc": "High Efficiency Image Container (HEIC)",
+        "header": "00 00 00",
+        "ext": "AVIF",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "High Efficiency Image Container (HEIC)",
+        "header": "00 00 00 20 66 74 79 70 68 65 69 63",
+        "ext": "HEIC",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "JPEG2000 image files",
+        "header": "00 00 00 0C 6A 50 20 20",
+        "ext": "JP2",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "3GPP multimedia files",
+        "header": "00 00 00 14 66 74 79 70",
+        "ext": "3GP",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MPEG-4 v1",
+        "header": "00 00 00 14 66 74 79 70 69 73 6F 6D",
+        "ext": "MP4",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "3rd Generation Partnership Project 3GPP",
+        "header": "00 00 00 14 66 74 79 70",
+        "ext": "3GG|3GP|3G2",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows Disk Image",
+        "header": "00 00 00 00 14 00 00 00",
+        "ext": "TBI",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Bitcoin Core wallet.dat file",
+        "header": "00 00 00 00 62 31 05 00 09 00 00 00 00 20 00 00 00 09 00 00 00 00 00 00",
+        "ext": "DAT",
+        "category": "Finance",
+        "offset": 8,
+        "trailer": null
+    },
+    {
+        "desc": "MPEG-4 video",
+        "header": "00 00 00 18 66 74 79 70",
+        "ext": "3GP5|M4V|MP4",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MPEG-4 video",
+        "header": "00 00 00 1C 66 74 79 70",
+        "ext": "MP4",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "3GPP2 multimedia files",
+        "header": "00 00 00 20 66 74 79 70",
+        "ext": "3GP",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Apple audio and video",
+        "header": "00 00 00 20 66 74 79 70 4D 34 41",
+        "ext": "M4A",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "3rd Generation Partnership Project 3GPP2",
+        "header": "00 00 00 20 66 74 79 70",
+        "ext": "3GG|3GP|3G2",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows icon|printer spool file",
+        "header": "00 00 01 00",
+        "ext": "ICO|SPL",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MPEG video file",
+        "header": "00 00 01 B3",
+        "ext": "MPG",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": "00 00 01 B7"
+    },
+    {
+        "desc": "DVD video file",
+        "header": "00 00 01 BA",
+        "ext": "MPG|VOB",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": "00 00 01 B9"
+    },
+    {
+        "desc": "Windows cursor",
+        "header": "00 00 02 00",
+        "ext": "CUR",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Compucon-Singer embroidery design file",
+        "header": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+        "ext": "XXX",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "QuattroPro spreadsheet",
+        "header": "00 00 02 00",
+        "ext": "WB2",
+        "category": "Spreadsheet",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Amiga Hunk executable",
+        "header": "00 00 03 F3",
+        "ext": "",
+        "category": "System",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Wii images container",
+        "header": "00 20 AF 30",
+        "ext": "TPL",
+        "category": "System",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Lotus 1-2-3 (v1)",
+        "header": "00 00 02 00 06 04 06 00",
+        "ext": "WK1",
+        "category": "Spreadsheet",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Lotus 1-2-3 (v3)",
+        "header": "00 00 1A 00 00 10 04 00",
+        "ext": "WK3",
+        "category": "Spreadsheet",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Lotus 1-2-3 (v4-v5)",
+        "header": "00 00 1A 00 02 10 04 00",
+        "ext": "WK4|WK5",
+        "category": "Spreadsheet",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Lotus 1-2-3 (v9)",
+        "header": "00 00 1A 00 05 10 04",
+        "ext": "123",
+        "category": "Spreadsheet",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Quark Express (Intel)",
+        "header": "00 00 49 49 58 50 52",
+        "ext": "QXD",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Quark Express (Motorola)",
+        "header": "00 00 4D 4D 58 50 52",
+        "ext": "QXD",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows Help file",
+        "header": "00 00 FF FF FF FF",
+        "ext": "HLP",
+        "category": "Windows",
+        "offset": 6,
+        "trailer": null
+    },
+    {
+        "desc": "TrueType font file",
+        "header": "00 01 00 00 00",
+        "ext": "TTF",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Microsoft Money file",
+        "header": "00 01 00 00 4D 53 49 53 41 4D 20 44 61 74 61 62 61 73 65",
+        "ext": "MNY",
+        "category": "Finance",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Microsoft Access 2007",
+        "header": "00 01 00 00 53 74 61 6E 64 61 72 64 20 41 43 45 20 44 42",
+        "ext": "ACCDB",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Microsoft Access",
+        "header": "00 01 00 00 53 74 61 6E 64 61 72 64 20 4A 65 74 20 44 42",
+        "ext": "MDB",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Palm Address Book Archive",
+        "header": "00 01 42 41",
+        "ext": "ABA",
+        "category": "Mobile",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Palm DateBook Archive",
+        "header": "00 01 42 44",
+        "ext": "DBA",
+        "category": "Mobile",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Netscape Navigator (v4) database",
+        "header": "00 06 15 61 00 00 00 02 00 00 04 D2 00 00 10 00",
+        "ext": "DB",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Mbox table of contents file",
+        "header": "00 0D BB A0",
+        "ext": "",
+        "category": "E-mail",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "FLIC animation",
+        "header": "00 11",
+        "ext": "FLI",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "BIOS details in RAM",
+        "header": "00 14 00 00 01 02",
+        "ext": "",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Netscape Communicator (v4) mail folder",
+        "header": "00 1E 84 90 00 00 00 00",
+        "ext": "SNM",
+        "category": "Email",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Paessler PRTG Monitoring System",
+        "header": "00 3B 05 00 01 00 00 00",
+        "ext": "DB",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PowerPoint presentation subheader",
+        "header": "00 6E 1E F0",
+        "ext": "PPT",
+        "category": "Presentation",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "Webex Advanced Recording Format",
+        "header": "01 00 02 00",
+        "ext": "ARF",
+        "category": "Video",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Firebird and Interbase database files",
+        "header": "01 00 39 30",
+        "ext": "FDB|GDB",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "The Bat! Message Base Index",
+        "header": "01 01 47 19 A4 00 00 00 00 00 00 00",
+        "ext": "TBI",
+        "category": "Email",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "SQL Data Base",
+        "header": "01 0F 00 00",
+        "ext": "MDF",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Novell LANalyzer capture file",
+        "header": "01 10",
+        "ext": "TR1",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Silicon Graphics RGB Bitmap",
+        "header": "01 DA 01 01 00 03",
+        "ext": "RGB",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Micrografx vector graphic file",
+        "header": "01 FF 02 04 03 02",
+        "ext": "DRW",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Digital Speech Standard file",
+        "header": "02 64 73 73",
+        "ext": "DSS",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MapInfo Native Data Format",
+        "header": "03",
+        "ext": "DAT",
+        "category": "Navigation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "dBASE III file",
+        "header": "03",
+        "ext": "DB3",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Quicken price history",
+        "header": "03 00 00 00",
+        "ext": "QPH",
+        "category": "Finance",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Nokia PC Suite Content Copier file",
+        "header": "03 00 00 00",
+        "ext": "NFC",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Approach index file",
+        "header": "03 00 00 00 41 50 50 52",
+        "ext": "ADX",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Digital Speech Standard (v3)",
+        "header": "03 64 73 73",
+        "ext": "DSS",
+        "category": "Audio",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "dBASE IV file",
+        "header": "04",
+        "ext": "DB4",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "INFO2 Windows recycle bin",
+        "header": "04 00 00 00",
+        "ext": "",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "INFO2 Windows recycle bin",
+        "header": "05 00 00 00",
+        "ext": "",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Adobe InDesign",
+        "header": "06 06 ED F5 D8 1D 46 E5 BD 31 EF E7 FE 74 B7 1D",
+        "ext": "INDD",
+        "category": "Media",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Material Exchange Format",
+        "header": "06 0E 2B 34 02 05 01 01 0D 01 02 01 01 02",
+        "ext": "MXF",
+        "category": "Media",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Generic drawing programs",
+        "header": "07",
+        "ext": "DRW",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "SkinCrafter skin",
+        "header": "07 53 4B 46",
+        "ext": "SKF",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "DesignTools 2D Design file",
+        "header": "07 64 74 32 64 64 74 64",
+        "ext": "DTD",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "dBASE IV or dBFast configuration file",
+        "header": "08",
+        "ext": "DB",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Excel spreadsheet subheader",
+        "header": "09 08 10 00 00 06 05 00",
+        "ext": "XLS",
+        "category": "Spreadsheet",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "ZSOFT Paintbrush file",
+        "header": "0A 02 01 01",
+        "ext": "PCX",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "ZSOFT Paintbrush file",
+        "header": "0A 03 01 01",
+        "ext": "PCX",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "ZSOFT Paintbrush file",
+        "header": "0A 05 01 01",
+        "ext": "PCX",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MultiBit Bitcoin wallet file",
+        "header": "0A 16 6F 72 67 2E 62 69 74 63 6F 69 6E 2E 70 72",
+        "ext": "WALLET",
+        "category": "e-money",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Monochrome Picture TIFF bitmap",
+        "header": "0C ED",
+        "ext": "MP",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "DeskMate Document",
+        "header": "0D 44 4F 43",
+        "ext": "DOC",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Nero CD compilation",
+        "header": "0E 4E 65 72 6F 49 53 4F",
+        "ext": "NRI",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "DeskMate Worksheet",
+        "header": "0E 57 4B 53",
+        "ext": "WKS",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PowerPoint presentation subheader",
+        "header": "0F 00 E8 03",
+        "ext": "PPT",
+        "category": "Presentation",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "Sibelius Music - Score",
+        "header": "0F 53 49 42 45 4C 49 55 53",
+        "ext": "SIB",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Easy CD Creator 5 Layout file",
+        "header": "10 00 00 00",
+        "ext": "CL5",
+        "category": "Utility",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows prefetch file",
+        "header": "11 00 00 00 53 43 43 41",
+        "ext": "PF",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Lotus Notes database template",
+        "header": "1A 00 00",
+        "ext": "NTF",
+        "category": "Spreadsheet",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Lotus Notes database",
+        "header": "1A 00 00 04 00 00",
+        "ext": "NSF",
+        "category": "Spreadsheet",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "LH archive (old vers.-type 1)",
+        "header": "1A 02",
+        "ext": "ARC",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "LH archive (old vers.-type 2)",
+        "header": "1A 03",
+        "ext": "ARC",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "LH archive (old vers.-type 3)",
+        "header": "1A 04",
+        "ext": "ARC",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "LH archive (old vers.-type 4)",
+        "header": "1A 08",
+        "ext": "ARC",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "LH archive (old vers.-type 5)",
+        "header": "1A 09",
+        "ext": "ARC",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Compressed archive file",
+        "header": "1A 0B",
+        "ext": "PAK",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "WinPharoah capture file",
+        "header": "1A 35 01 00",
+        "ext": "ETH",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "WebM video file",
+        "header": "1A 45 DF A3",
+        "ext": "WEBM",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Matroska stream file",
+        "header": "1A 45 DF A3",
+        "ext": "MKV",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Matroska stream file",
+        "header": "1A 45 DF A3 93 42 82 88",
+        "ext": "MKV",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Runtime Software disk image",
+        "header": "1A 52 54 53 20 43 4F 4D",
+        "ext": "DAT",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "WordStar Version 5.0-6.0 document",
+        "header": "1D 7D",
+        "ext": "WS",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "GZIP archive file",
+        "header": "1F 8B 08",
+        "ext": "GZ",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "VLC Player Skin file",
+        "header": "1F 8B 08",
+        "ext": "VLT",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Synology router configuration backup file",
+        "header": "1F 8B 08 00",
+        "ext": "DSS",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Compressed tape archive",
+        "header": "1F 9D 90",
+        "ext": "TAR.Z",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Compressed tape archive",
+        "header": "1F A0",
+        "ext": "TAR.Z",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MapInfo Sea Chart",
+        "header": "21",
+        "ext": "BSB",
+        "category": "Navigation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "NOAA Raster Navigation Chart (RNC) file",
+        "header": "21 0D 0A 43 52 52 2F 54 68 69 73 20 65 6C 65 63",
+        "ext": "BSB",
+        "category": "Navigation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "AIN Compressed Archive",
+        "header": "21 12",
+        "ext": "AIN",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Unix archiver (ar)-MS Program Library Common Object File Format (COFF)",
+        "header": "21 3C 61 72 63 68 3E 0A",
+        "ext": "LIB",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Microsoft Outlook Exchange Offline Storage Folder",
+        "header": "21 42 44 4E",
+        "ext": "OST",
+        "category": "Email",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Cerius2 file",
+        "header": "23 20",
+        "ext": "MSI",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "VMware 4 Virtual Disk description",
+        "header": "23 20 44 69 73 6B 20 44",
+        "ext": "VMDK",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Developer Studio project file",
+        "header": "23 20 4D 69 63 72 6F 73",
+        "ext": "DSP",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Google Earth Keyhole Placemark file",
+        "header": "23 20 54 68 69 73 20 69 73 20 61 6E 20 4B 65 79",
+        "ext": "ETA",
+        "category": "Navigation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Adaptive Multi-Rate ACELP Codec (GSM)",
+        "header": "23 21 41 4D 52",
+        "ext": "AMR",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Skype audio compression",
+        "header": "23 21 53 49 4C 4B 0A",
+        "ext": "SIL",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Radiance High Dynamic Range image file",
+        "header": "23 3F 52 41 44 49 41 4E",
+        "ext": "HDR",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "VBScript Encoded script",
+        "header": "23 40 7E 5E",
+        "ext": "VBE",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "NVIDIA Scene Graph binary file",
+        "header": "23 4E 42 46",
+        "ext": "NBF",
+        "category": "Video",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Brother-Babylock-Bernina Home Embroidery",
+        "header": "23 50 45 43 30 30 30 31",
+        "ext": "PEC",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Brother-Babylock-Bernina Home Embroidery",
+        "header": "23 50 45 53 30",
+        "ext": "PES",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "SPSS Data file",
+        "header": "24 46 4C 32 40 28 23 29",
+        "ext": "SAV",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Encapsulated PostScript file",
+        "header": "25 21 50 53 2D 41 64 6F",
+        "ext": "EPS",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PostScript file",
+        "header": "25 21 50 53 2D 41 64 6F 62 65 2D",
+        "ext": "PS",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PDF file",
+        "header": "25 50 44 46",
+        "ext": "PDF|FDF",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": "25 25 45 4F 46"
+    },
+    {
+        "desc": "Fuzzy bitmap (FBM) file",
+        "header": "25 62 69 74 6D 61 70",
+        "ext": "FBM",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "BinHex 4 Compressed Archive",
+        "header": "28 54 68 69 73 20 66 69",
+        "ext": "HQX",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Symantec Wise Installer log",
+        "header": "2A 2A 2A 20 20 49 6E 73",
+        "ext": "LOG",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Compressed archive",
+        "header": "2D 6C 68",
+        "ext": "LHA|LZH",
+        "category": "Compressed archive",
+        "offset": 2,
+        "trailer": null
+    },
+    {
+        "desc": "RealPlayer video file (V11+)",
+        "header": "2E 52 45 43",
+        "ext": "IVR",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "RealMedia streaming media",
+        "header": "2E 52 4D 46",
+        "ext": "RM|RMVB",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "RealAudio file",
+        "header": "2E 52 4D 46 00 00 00 12",
+        "ext": "RA",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "RealAudio streaming media",
+        "header": "2E 72 61 FD 00",
+        "ext": "RA",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "NeXT-Sun Microsystems audio file",
+        "header": "2E 73 6E 64",
+        "ext": "AU",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Thunderbird-Mozilla Mail Summary File",
+        "header": "2F 2F 20 3C 21 2D 2D 20 3C 6D 64 62 3A 6D 6F 72 6B 3A 7A",
+        "ext": "MSF",
+        "category": "E-mail",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS security catalog file",
+        "header": "30",
+        "ext": "CAT",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows Event Viewer file",
+        "header": "30 00 00 00 4C 66 4C 65",
+        "ext": "EVT",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "GEnealogical Data COMmunication (GEDCOM) file",
+        "header": "30 20 48 45 41 44",
+        "ext": "GED",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows Media Audio-Video File",
+        "header": "30 26 B2 75 8E 66 CF 11",
+        "ext": "ASF|WMA|WMV",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "National Transfer Format Map",
+        "header": "30 31 4F 52 44 4E 41 4E",
+        "ext": "NTF",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "cpio archive",
+        "header": "30 37 30 37 30",
+        "ext": "",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Write file",
+        "header": "31 BE",
+        "ext": "WRI",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Write file",
+        "header": "32 BE",
+        "ext": "WRI",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Pfaff Home Embroidery",
+        "header": "32 03 10 00 00 00 00 00 00 00 80 00 00 00 FF 00",
+        "ext": "PCS",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Tcpdump capture file",
+        "header": "34 CD B2 A1",
+        "ext": "",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "7-Zip compressed file",
+        "header": "37 7A BC AF 27 1C",
+        "ext": "7Z",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "zisofs compressed file",
+        "header": "37 E4 53 96 C9 DB D6 07",
+        "ext": "",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Photoshop image",
+        "header": "38 42 50 53",
+        "ext": "PSD",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Surfplan kite project file",
+        "header": "3A 56 45 52 53 49 4F 4E",
+        "ext": "SLE",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Advanced Stream Redirector",
+        "header": "3C",
+        "ext": "ASX",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "BizTalk XML-Data Reduced Schema",
+        "header": "3C",
+        "ext": "XDR",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "AOL HTML mail",
+        "header": "3C 21 64 6F 63 74 79 70",
+        "ext": "DCI",
+        "category": "Email",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows Script Component",
+        "header": "3C 3F",
+        "ext": "WSC",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows Visual Stylesheet",
+        "header": "3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D",
+        "ext": "MANIFEST",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "User Interface Language",
+        "header": "3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 3F 3E",
+        "ext": "XML",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MMC Snap-in Control file",
+        "header": "3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 3F 3E 0D 0A 3C 4D 4D 43 5F 43 6F 6E 73 6F 6C 65 46 69 6C 65 20 43 6F 6E 73 6F 6C 65 56 65 72 73 69 6F 6E 3D 22",
+        "ext": "MSC",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Picasa movie project file",
+        "header": "3C 43 54 72 61 6E 73 54 69 6D 65 6C 69 6E 65 3E",
+        "ext": "MXF",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Csound music",
+        "header": "3C 43 73 6F 75 6E 64 53 79 6E 74 68 65 73 69 7A",
+        "ext": "CSD",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Google Earth Keyhole Overlay file",
+        "header": "3C 4B 65 79 68 6F 6C 65 3E",
+        "ext": "ETA",
+        "category": "Navigation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Adobe FrameMaker",
+        "header": "3C 4D 61 6B 65 72 46 69",
+        "ext": "FM|MIF",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "GPS Exchange (v1.1)",
+        "header": "3C 67 70 78 20 76 65 72 73 69 6F 6E 3D 22 31 2E",
+        "ext": "GPX",
+        "category": "Navigation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "BASE85 file",
+        "header": "3C 7E 36 3C 5C 25 5F 30 67 53 71 68 3B",
+        "ext": "B85",
+        "category": "Word processing",
+        "offset": 0,
+        "trailer": "7E 3E 0A"
+    },
+    {
+        "desc": "Quatro Pro for Windows 7.0",
+        "header": "3E 00 03 00 FE FF 09 00 06",
+        "ext": "WB3",
+        "category": "Spreadsheet",
+        "offset": 24,
+        "trailer": null
+    },
+    {
+        "desc": "Windows Help file",
+        "header": "3F 5F 03 00",
+        "ext": "GID|HLP",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "EndNote Library File",
+        "header": "40 40 40 20 00 00 40 40 40 40",
+        "ext": "ENL",
+        "category": "Miscellaneous",
+        "offset": 32,
+        "trailer": null
+    },
+    {
+        "desc": "Analog Box (ABox) circuit files",
+        "header": "41 42 6F 78",
+        "ext": "ABOX2",
+        "category": "Audio",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Generic AutoCAD drawing",
+        "header": "41 43 31 30",
+        "ext": "DWG",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Steganos virtual secure drive",
+        "header": "41 43 76",
+        "ext": "SLE",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "AOL parameter-info files",
+        "header": "41 43 53 44",
+        "ext": "",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Harvard Graphics symbol graphic",
+        "header": "41 4D 59 4F",
+        "ext": "SYW",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "AOL config files",
+        "header": "41 4F 4C",
+        "ext": "ABI|ABY|BAG|IDX|IND|PFC",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "AOL and AIM buddy list",
+        "header": "41 4F 4C 20 46 65 65 64",
+        "ext": "BAG",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "AOL address book",
+        "header": "41 4F 4C 44 42",
+        "ext": "ABY",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "AOL user configuration",
+        "header": "41 4F 4C 44 42",
+        "ext": "IDX",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "AOL client preferences-settings file",
+        "header": "41 4F 4C 49 44 58",
+        "ext": "IND",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "AOL address book index",
+        "header": "41 4F 4C 49 4E 44 45 58",
+        "ext": "ABI",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "AOL personal file cabinet",
+        "header": "41 4F 4C 56 4D 31 30 30",
+        "ext": "ORG|PFC",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "AVG6 Integrity database",
+        "header": "41 56 47 36 5F 49 6E 74",
+        "ext": "DAT",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "RIFF Windows Audio",
+        "header": "41 56 49 20 4C 49 53 54",
+        "ext": "AVI",
+        "category": "Multimedia",
+        "offset": 8,
+        "trailer": null
+    },
+    {
+        "desc": "FreeArc compressed file",
+        "header": "41 72 43 01",
+        "ext": "ARC",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "NTFS MFT (BAAD)",
+        "header": "42 41 41 44",
+        "ext": "",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Google Chrome dictionary file",
+        "header": "42 44 69 63",
+        "ext": "BDIC",
+        "category": "System",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "vCard",
+        "header": "42 45 47 49 4E 3A 56 43",
+        "ext": "VCF",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Speedtouch router firmware",
+        "header": "42 4C 49 32 32 33",
+        "ext": "BIN|BLI|RBI",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Bitmap image",
+        "header": "42 4D",
+        "ext": "BMP|DIB",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Palmpilot resource file",
+        "header": "42 4F 4F 4B 4D 4F 42 49",
+        "ext": "PRC",
+        "category": "Mobile",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Better Portable Graphics",
+        "header": "42 50 47 FB",
+        "ext": "BPG",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "bzip2 compressed archive",
+        "header": "42 5A 68",
+        "ext": "BZ2|TAR|BZ2|TBZ2|TB2",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Mac Disk image (BZ2 compressed)",
+        "header": "42 5A 68",
+        "ext": "DMG",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Puffer ASCII encrypted archive",
+        "header": "42 65 67 69 6E 20 50 75 66 66 65 72",
+        "ext": "APUF",
+        "category": "Encryption",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Blink compressed archive",
+        "header": "42 6C 69 6E 6B",
+        "ext": "BLI",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "RagTime document",
+        "header": "43 23 2B 44 A4 43 4D A5",
+        "ext": "RTD",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "EA Interchange Format File (IFF)",
+        "header": "43 41 54 20",
+        "ext": "IFF",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": ""
+    },
+    {
+        "desc": "WordPerfect dictionary",
+        "header": "43 42 46 49 4C 45",
+        "ext": "CBD",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "ISO-9660 CD Disc Image",
+        "header": "43 44 30 30 31",
+        "ext": "ISO",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "RIFF CD audio",
+        "header": "43 44 44 41 66 6D 74 20",
+        "ext": "CDA",
+        "category": "Multimedia",
+        "offset": 8,
+        "trailer": null
+    },
+    {
+        "desc": "Compressed ISO CD image",
+        "header": "43 49 53 4F",
+        "ext": "CSO",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows 7 thumbnail",
+        "header": "43 4D 4D 4D 15 00 00 00",
+        "ext": "DB",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Corel Binary metafile",
+        "header": "43 4D 58 31",
+        "ext": "CLB",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "COM+ Catalog",
+        "header": "43 4F 4D 2B",
+        "ext": "CLB",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "VMware 3 Virtual Disk",
+        "header": "43 4F 57 44",
+        "ext": "VMDK",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Corel Photopaint file",
+        "header": "43 50 54 37 46 49 4C 45",
+        "ext": "CPT",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Corel Photopaint file",
+        "header": "43 50 54 46 49 4C 45",
+        "ext": "CPT",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Win9x registry hive",
+        "header": "43 52 45 47",
+        "ext": "DAT",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Crush compressed archive",
+        "header": "43 52 55 53 48 20 76",
+        "ext": "CRU",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Shockwave Flash file",
+        "header": "43 57 53",
+        "ext": "SWF",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Calculux Indoor lighting project file",
+        "header": "43 61 6C 63 75 6C 75 78 20 49 6E 64 6F 6F 72 20",
+        "ext": "CIN",
+        "category": "Application",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "WhereIsIt Catalog",
+        "header": "43 61 74 61 6C 6F 67 20",
+        "ext": "CTF",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "IE History file",
+        "header": "43 6C 69 65 6E 74 20 55",
+        "ext": "DAT",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Google Chrome Extension",
+        "header": "43 72 32 34",
+        "ext": "CRX",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Google Chromium patch update",
+        "header": "43 72 4F 44",
+        "ext": "CRX",
+        "category": "System",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Creative Voice",
+        "header": "43 72 65 61 74 69 76 65 20 56 6F 69 63 65 20 46",
+        "ext": "VOC",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PowerISO Direct-Access-Archive image",
+        "header": "44 41 41 00 00 00 00 00",
+        "ext": "DAA",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "DAX Compressed CD image",
+        "header": "44 41 58 00",
+        "ext": "DAX",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Palm Zire photo database",
+        "header": "44 42 46 48",
+        "ext": "DB",
+        "category": "Mobile",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Amiga DiskMasher compressed archive",
+        "header": "44 4D 53 21",
+        "ext": "DMS",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Amiga disk file",
+        "header": "44 4F 53",
+        "ext": "ADF",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "DST Compression",
+        "header": "44 53 54 62",
+        "ext": "DST",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "DVR-Studio stream file",
+        "header": "44 56 44",
+        "ext": "DVR",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "DVD info file",
+        "header": "44 56 44",
+        "ext": "IFO",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Elite Plus Commander game file",
+        "header": "45 4C 49 54 45 20 43 6F",
+        "ext": "CDR",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "VideoVCD-VCDImager file",
+        "header": "45 4E 54 52 59 56 43 44",
+        "ext": "VCD",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Apple ISO 9660-HFS hybrid CD image",
+        "header": "45 52 02 00 00",
+        "ext": "ISO",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "EasyRecovery Saved State file",
+        "header": "45 52 46 53 53 41 56 45",
+        "ext": "DAT",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "DSD Storage Facility audio file",
+        "header": "44 53 44 20",
+        "ext": "DSF",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Document Imaging file",
+        "header": "45 50",
+        "ext": "MDI",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Expert Witness Compression Format",
+        "header": "45 56 46 09 0D 0A FF 00",
+        "ext": "E01",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "EnCase Evidence File Format V2",
+        "header": "45 56 46 32 0D 0A 81",
+        "ext": "Ex01",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows Vista event log",
+        "header": "45 6C 66 46 69 6C 65 00",
+        "ext": "EVTX",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "QuickBooks backup",
+        "header": "45 86 00 00 06 00",
+        "ext": "QBB",
+        "category": "Finance",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Fax Cover Sheet",
+        "header": "46 41 58 43 4F 56 45 52",
+        "ext": "CPE",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Fiasco database definition file",
+        "header": "46 44 42 48 00",
+        "ext": "FDB",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "NTFS MFT (FILE)",
+        "header": "46 49 4C 45",
+        "ext": "",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Flash video file",
+        "header": "46 4C 56",
+        "ext": "FLV",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "IFF ANIM file",
+        "header": "46 4F 52 4D",
+        "ext": "ANM",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "EA Interchange Format File (IFF)",
+        "header": "46 4F 52 4D",
+        "ext": "IFF",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Audio Interchange File",
+        "header": "46 4F 52 4D 00",
+        "ext": "AIFF",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "DAKX Compressed Audio",
+        "header": "46 4F 52 4D 00",
+        "ext": "DAX",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Shockwave Flash player",
+        "header": "46 57 53",
+        "ext": "SWF",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Generic e-mail",
+        "header": "46 72 6F 6D",
+        "ext": "EML",
+        "category": "Email",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "GIF file",
+        "header": "47 49 46 38",
+        "ext": "GIF",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": "00 3B"
+    },
+    {
+        "desc": "GIMP pattern file",
+        "header": "47 50 41 54",
+        "ext": "PAT",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "General Regularly-distributed Information (GRIdded) Binary",
+        "header": "47 52 49 42",
+        "ext": "GRB",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Show Partner graphics file",
+        "header": "47 58 32",
+        "ext": "GX2",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Genetec video archive",
+        "header": "47 65 6E 65 74 65 63 20 4F 6D 6E 69 63 61 73 74",
+        "ext": "G64",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "SAP PowerBuilder integrated development environment file",
+        "header": "48 44 52 2A 50 6F 77 65 72 42 75 69 6C 64 65 72",
+        "ext": "PBD",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "SAS Transport dataset",
+        "header": "48 45 41 44 45 52 20 52 45 43 4F 52 44 2A 2A 2A",
+        "ext": "XPT",
+        "category": "Statistics",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Harvard Graphics presentation file",
+        "header": "48 48 47 42 31",
+        "ext": "SH3",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "TIFF file",
+        "header": "49 20 49",
+        "ext": "TIF|TIFF",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MP3 audio file",
+        "header": "49 44 33",
+        "ext": "MP3",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Sprint Music Store audio",
+        "header": "49 44 33 03 00 00 00",
+        "ext": "KOZ",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Canon RAW file",
+        "header": "49 49 1A 00 00 00 48 45",
+        "ext": "CRW",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "TIFF file",
+        "header": "49 49 2A 00",
+        "ext": "TIF|TIFF",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows 7 thumbnail",
+        "header": "49 4D 4D 4D 15 00 00 00",
+        "ext": "DB",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Install Shield compressed file",
+        "header": "49 53 63 28",
+        "ext": "CAB|HDR",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Reader eBook",
+        "header": "49 54 4F 4C 49 54 4C 53",
+        "ext": "LIT",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Compiled HTML Help File",
+        "header": "49 54 53 46",
+        "ext": "CHI|CHM",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Inno Setup Uninstall Log",
+        "header": "49 6E 6E 6F 20 53 65 74",
+        "ext": "DAT",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Inter@ctive Pager Backup (BlackBerry file",
+        "header": "49 6E 74 65 72 40 63 74 69 76 65 20 50 61 67 65",
+        "ext": "IPD",
+        "category": "Mobile",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "JARCS compressed archive",
+        "header": "4A 41 52 43 53 00",
+        "ext": "JAR",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "AOL ART file",
+        "header": "4A 47 03 0E",
+        "ext": "JG",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": "D0 CB 00 00"
+    },
+    {
+        "desc": "AOL ART file",
+        "header": "4A 47 04 0E",
+        "ext": "JG",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": "CF C7 CB"
+    },
+    {
+        "desc": "VMware 4 Virtual Disk",
+        "header": "4B 44 4D",
+        "ext": "VMDK",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "KGB archive",
+        "header": "4B 47 42 5F 61 72 63 68",
+        "ext": "KGB",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Win9x printer spool file",
+        "header": "4B 49 00 00",
+        "ext": "SHD",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "KWAJ (compressed) file",
+        "header": "4B 57 41 4A 88 F0 27 D1",
+        "ext": "",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows shortcut file",
+        "header": "4C 00 00 00 01 14 02 00",
+        "ext": "LNK",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS COFF relocatable object code",
+        "header": "4C 01",
+        "ext": "OBJ",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Tajima emboridery",
+        "header": "4C 41 3A",
+        "ext": "DST",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows help file",
+        "header": "4C 4E 02 00",
+        "ext": "GID|HLP",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "EA Interchange Format File (IFF)",
+        "header": "4C 49 53 54",
+        "ext": "IFF",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "DeluxePaint Animation",
+        "header": "4C 50 46 20 00 01",
+        "ext": "ANM",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Logical File Evidence Format",
+        "header": "4C 56 46 09 0D 0A FF 00",
+        "ext": "E01",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Merriam-Webster Pocket Dictionary",
+        "header": "4D 2D 57 20 50 6F 63 6B",
+        "ext": "PDB",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Mozilla archive",
+        "header": "4D 41 52 31 00",
+        "ext": "MAR",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Microsoft-MSN MARC archive",
+        "header": "4D 41 52 43",
+        "ext": "MAR",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MATLAB v5 workspace",
+        "header": "4D 41 54 4C 41 42 20 35 2E 30 20 4D 41 54 2D 66 69 6C 65",
+        "ext": "MAT",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": ""
+    },
+    {
+        "desc": "MAr compressed archive",
+        "header": "4D 41 72 30 00",
+        "ext": "MAR",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "TargetExpress target file",
+        "header": "4D 43 57 20 54 65 63 68 6E 6F 67 6F 6C 69 65 73",
+        "ext": "MTE",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows dump file",
+        "header": "4D 44 4D 50 93 A7",
+        "ext": "DMP|HDMP",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Milestones project management file",
+        "header": "4D 49 4C 45 53",
+        "ext": "MLS",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Skype localization data file",
+        "header": "4D 4C 53 57",
+        "ext": "MLS",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "TIFF file",
+        "header": "4D 4D 00 2A",
+        "ext": "TIF|TIFF",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "TIFF file",
+        "header": "4D 4D 00 2B",
+        "ext": "TIF|TIFF",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Yamaha Synthetic music Mobile Application Format",
+        "header": "4D 4D 4D 44 00 00",
+        "ext": "MMF",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "VMware BIOS state file",
+        "header": "4D 52 56 4E",
+        "ext": "NVRAM",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Microsoft cabinet file",
+        "header": "4D 53 43 46",
+        "ext": "CAB",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "OneNote Package",
+        "header": "4D 53 43 46",
+        "ext": "ONEPKG",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Powerpoint Packaged Presentation",
+        "header": "4D 53 43 46",
+        "ext": "PPZ",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Access Snapshot Viewer file",
+        "header": "4D 53 43 46",
+        "ext": "SNP",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "OLE-SPSS-Visual C++ library file",
+        "header": "4D 53 46 54 02 00 01 00",
+        "ext": "TLB",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Health Level-7 data (pipe delimited) file",
+        "header": "D 53 48 7C 5E 7E 5C 26 7C",
+        "ext": "HL7",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Microsoft Windows Imaging Format",
+        "header": "4D 53 57 49 4D",
+        "ext": "WIM",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Sony Compressed Voice File",
+        "header": "4D 53 5F 56 4F 49 43 45",
+        "ext": "CDR|DVF|MSV",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MIDI sound file",
+        "header": "4D 54 68 64",
+        "ext": "MID|MIDI",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Yamaha Piano",
+        "header": "4D 54 68 64",
+        "ext": "PCS",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "CD Stomper Pro label file",
+        "header": "4D 56",
+        "ext": "DSN",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Milestones project management file",
+        "header": "4D 56 32 31 34",
+        "ext": "MLS",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Milestones project management file",
+        "header": "4D 56 32 43",
+        "ext": "MLS",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows-DOS executable file",
+        "header": "4D 5A",
+        "ext": "COM|DLL|DRV|EXE|PIF|QTS|QTX|SYS",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS audio compression manager driver",
+        "header": "4D 5A",
+        "ext": "ACM",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Library cache file",
+        "header": "4D 5A",
+        "ext": "AX",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Control panel application",
+        "header": "4D 5A",
+        "ext": "CPL",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Font file",
+        "header": "4D 5A",
+        "ext": "FON",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "ActiveX-OLE Custom Control",
+        "header": "4D 5A",
+        "ext": "OCX",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "OLE object library",
+        "header": "4D 5A",
+        "ext": "OLB",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Screen saver",
+        "header": "4D 5A",
+        "ext": "SCR",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "VisualBASIC application",
+        "header": "4D 5A",
+        "ext": "VBX",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows virtual device drivers",
+        "header": "4D 5A",
+        "ext": "VXD|386",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Acrobat plug-in",
+        "header": "4D 5A 90 00 03 00 00 00",
+        "ext": "API",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "DirectShow filter",
+        "header": "4D 5A 90 00 03 00 00 00",
+        "ext": "AX",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Audition graphic filter",
+        "header": "4D 5A 90 00 03 00 00 00",
+        "ext": "FLT",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "ZoneAlam data file",
+        "header": "4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF",
+        "ext": "ZAP",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS C++ debugging symbols file",
+        "header": "4D 69 63 72 6F 73 6F 66 74 20 43 2F 43 2B 2B 20",
+        "ext": "PDB",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Visual Studio .NET file",
+        "header": "4D 69 63 72 6F 73 6F 66 74 20 56 69 73 75 61 6C",
+        "ext": "SLN",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows Media Player playlist",
+        "header": "4D 69 63 72 6F 73 6F 66 74 20 57 69 6E 64 6F 77 73 20 4D 65 64 69 61 20 50 6C 61 79 65 72 20 2D 2D 20",
+        "ext": "WPL",
+        "category": "Multimedia",
+        "offset": 84,
+        "trailer": null
+    },
+    {
+        "desc": "VMapSource GPS Waypoint Database",
+        "header": "4D 73 52 63 66",
+        "ext": "GDB",
+        "category": "Navigation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "TomTom traffic data",
+        "header": "4E 41 56 54 52 41 46 46",
+        "ext": "DAT",
+        "category": "Navigation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Windows journal",
+        "header": "4E 42 2A 00",
+        "ext": "JNT|JTP",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "NES Sound file",
+        "header": "4E 45 53 4D 1A 01",
+        "ext": "NSF",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "National Imagery Transmission Format file",
+        "header": "4E 49 54 46 30",
+        "ext": "NTF",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Agent newsreader character map",
+        "header": "4E 61 6D 65 3A 20",
+        "ext": "COD",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "1Password 4 Cloud Keychain",
+        "header": "4F 50 43 4C 44 41 54",
+        "ext": "attachment",
+        "category": "Encryption",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Psion Series 3 Database",
+        "header": "4F 50 4C 44 61 74 61 62",
+        "ext": "DBF",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "OpenType font",
+        "header": "4F 54 54 4F 00",
+        "ext": "OTF",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Ogg Vorbis Codec compressed file",
+        "header": "4F 67 67 53 00 02 00 00",
+        "ext": "OGA|OGG|OGV|OGX",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Visio-DisplayWrite 4 text file",
+        "header": "4F 7B",
+        "ext": "DW4",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Quicken QuickFinder Information File",
+        "header": "50 00 00 00 20 00 00 00",
+        "ext": "IDX",
+        "category": "Finance",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Portable Graymap Graphic",
+        "header": "50 35 0A",
+        "ext": "PGM",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Quake archive file",
+        "header": "50 41 43 4B",
+        "ext": "PAK",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows memory dump",
+        "header": "50 41 47 45 44 55",
+        "ext": "DMP",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PAX password protected bitmap",
+        "header": "50 41 58",
+        "ext": "PAX",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PestPatrol data-scan strings",
+        "header": "50 45 53 54",
+        "ext": "DAT",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PGP disk image",
+        "header": "50 47 50 64 4D 41 49 4E",
+        "ext": "PGD",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "ChromaGraph Graphics Card Bitmap",
+        "header": "50 49 43 54 00 08",
+        "ext": "IMG",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PKZIP archive",
+        "header": "50 4B 03 04",
+        "ext": "ZIP",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": "50 4B ????????????????? 00 00 00"
+    },
+    {
+        "desc": "Android package",
+        "header": "50 4B 03 04",
+        "ext": "APK",
+        "category": "Mobile",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MacOS X Dashboard Widget",
+        "header": "50 4B 03 04",
+        "ext": "ZIP",
+        "category": "MacOS",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Office Open XML Format Document",
+        "header": "50 4B 03 04",
+        "ext": "DOCX|PPTX|XLSX",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Java archive",
+        "header": "50 4B 03 04",
+        "ext": "JAR",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Google Earth session file",
+        "header": "50 4B 03 04",
+        "ext": "KMZ",
+        "category": "Navigation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "KWord document",
+        "header": "50 4B 03 04",
+        "ext": "KWD",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "OpenDocument template",
+        "header": "50 4B 03 04",
+        "ext": "ODT|ODP|OTT",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Microsoft Open XML paper specification",
+        "header": "50 4B 03 04",
+        "ext": "OXPS",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "OpenOffice documents",
+        "header": "50 4B 03 04",
+        "ext": "SXC|SXD|SXI|SXW",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "StarOffice spreadsheet",
+        "header": "50 4B 03 04",
+        "ext": "SXC",
+        "category": "Spreadsheet",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows Media compressed skin file",
+        "header": "50 4B 03 04",
+        "ext": "WMZ",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Mozilla Browser Archive",
+        "header": "50 4B 03 04",
+        "ext": "XPI",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "XML paper specification file",
+        "header": "50 4B 03 04",
+        "ext": "XPS",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "eXact Packager Models",
+        "header": "50 4B 03 04",
+        "ext": "XPT",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Open Publication Structure eBook",
+        "header": "50 4B 03 04 0A 00 02 00",
+        "ext": "EPUB",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "ZLock Pro encrypted ZIP",
+        "header": "50 4B 03 04 14 00 01 00",
+        "ext": "ZIP",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Office 2007 documents",
+        "header": "50 4B 03 04 14 00 06 00",
+        "ext": "DOCX|PPTX|XLSX",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Java archive",
+        "header": "50 4B 03 04 14 00 08 00",
+        "ext": "JAR",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PKZIP archive",
+        "header": "50 4B 05 06",
+        "ext": "ZIP",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PKZIP archive",
+        "header": "50 4B 07 08",
+        "ext": "ZIP",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PKLITE archive",
+        "header": "50 4B 4C 49 54 45",
+        "ext": "ZIP",
+        "category": "Compressed archive",
+        "offset": 30,
+        "trailer": null
+    },
+    {
+        "desc": "PKSFX self-extracting archive",
+        "header": "50 4B 53 70 58",
+        "ext": "ZIP",
+        "category": "Compressed archive",
+        "offset": 526,
+        "trailer": null
+    },
+    {
+        "desc": "Windows Program Manager group file",
+        "header": "50 4D 43 43",
+        "ext": "GRP",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Norton Disk Doctor undo file",
+        "header": "50 4E 43 49 55 4E 44 4F",
+        "ext": "DAT",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Microsoft Windows User State Migration Tool",
+        "header": "50 4D 4F 43 43 4D 4F 43",
+        "ext": "PMOCCMOC",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Dreamcast Sound Format",
+        "header": "50 53 46 12",
+        "ext": "DSF",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Puffer encrypted archive",
+        "header": "50 55 46 58",
+        "ext": "PUF",
+        "category": "Encryption",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Parrot Video Encapsulation",
+        "header": "50 61 56 45",
+        "ext": "",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Quicken data",
+        "header": "51 45 4C 20",
+        "ext": "QEL",
+        "category": "Finance",
+        "offset": 92,
+        "trailer": null
+    },
+    {
+        "desc": "Qcow Disk Image",
+        "header": "51 46 49",
+        "ext": "QEMU",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "RIFF Qualcomm PureVoice",
+        "header": "51 4C 43 4D 66 6D 74 20",
+        "ext": "QCP",
+        "category": "Multimedia",
+        "offset": 8,
+        "trailer": null
+    },
+    {
+        "desc": "Quicken data file",
+        "header": "51 57 20 56 65 72 2E 20",
+        "ext": "ABD|QSD",
+        "category": "Finance",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Outlook-Exchange message subheader",
+        "header": "52 00 6F 00 6F 00 74 00 20 00 45 00 6E 00 74 00 72 00 79 00",
+        "ext": "MSG",
+        "category": "Email",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "Shareaza (P2P) thumbnail",
+        "header": "52 41 5A 41 54 44 42 31",
+        "ext": "DAT",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "R saved work space",
+        "header": "52 44 58 32 0A",
+        "ext": "RDATA",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "WinNT Registry-Registry Undo files",
+        "header": "52 45 47 45 44 49 54",
+        "ext": "REG|SUD",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Antenna data file",
+        "header": "52 45 56 4E 55 4D 3A 2C",
+        "ext": "AD",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows animated cursor",
+        "header": "52 49 46 46",
+        "ext": "ANI",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Corel Presentation Exchange metadata",
+        "header": "52 49 46 46",
+        "ext": "CMX",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "CorelDraw document",
+        "header": "52 49 46 46",
+        "ext": "CDR",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Video CD MPEG movie",
+        "header": "52 49 46 46",
+        "ext": "DAT",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Micrografx Designer graphic",
+        "header": "52 49 46 46",
+        "ext": "DS4",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "4X Movie video",
+        "header": "52 49 46 46",
+        "ext": "4XM",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Resource Interchange File Format",
+        "header": "52 49 46 46",
+        "ext": "AVI|CDA|QCP|RMI|WAV|WEBP",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "RIFF Windows MIDI",
+        "header": "52 4D 49 44 64 61 74 61",
+        "ext": "RMI",
+        "category": "Multimedia",
+        "offset": 8,
+        "trailer": null
+    },
+    {
+        "desc": "WinNT Netmon capture file",
+        "header": "52 54 53 53",
+        "ext": "CAP",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "WinRAR compressed archive",
+        "header": "52 61 72 21 1A 07 00",
+        "ext": "RAR",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Generic e-mail",
+        "header": "52 65 74 75 72 6E 2D 50",
+        "ext": "EML",
+        "category": "Email",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows prefetch",
+        "header": "53 43 43 41",
+        "ext": "PF",
+        "category": "Windows",
+        "offset": 4,
+        "trailer": null
+    },
+    {
+        "desc": "Underground Audio",
+        "header": "53 43 48 6C",
+        "ext": "AST",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Img Software Bitmap",
+        "header": "53 43 4D 49",
+        "ext": "IMG",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "SMPTE DPX (big endian)",
+        "header": "53 44 50 58",
+        "ext": "SDPX",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Harvard Graphics presentation",
+        "header": "53 48 4F 57",
+        "ext": "SHW",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Sietronics CPI XRD document",
+        "header": "53 49 45 54 52 4F 4E 49",
+        "ext": "CPI",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Flexible Image Transport System (FITS) file",
+        "header": "53 49 4D 50 4C 45 20 20 3D 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 54",
+        "ext": "FITS",
+        "category": "multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "StuffIt archive",
+        "header": "53 49 54 21 00",
+        "ext": "SIT",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "SmartDraw Drawing file",
+        "header": "53 4D 41 52 54 44 52 57",
+        "ext": "SDR",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "StorageCraft ShadownProtect backup file",
+        "header": "53 50 46 49 00",
+        "ext": "SPF",
+        "category": "Backup",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MultiBit Bitcoin blockchain file",
+        "header": "53 50 56 42",
+        "ext": "SPVB",
+        "category": "e-money",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "SQLite database file",
+        "header": "53 51 4C 69 74 65 20 66 6F 72 6D 61 74 20 33 00",
+        "ext": "DB",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "DB2 conversion file",
+        "header": "53 51 4C 4F 43 4F 4E 56",
+        "ext": "CNV",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "QBASIC SZDD file",
+        "header": "53 5A 20 88 F0 27 33 D1",
+        "ext": "",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "SZDD file format",
+        "header": "53 5A 44 44 88 F0 27 33",
+        "ext": "",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "StuffIt compressed archive",
+        "header": "53 74 75 66 66 49 74 20",
+        "ext": "SIT",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "SuperCalc worksheet",
+        "header": "53 75 70 65 72 43 61 6C",
+        "ext": "CAL",
+        "category": "Spreadsheet",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Wii-GameCube",
+        "header": "54 48 50 00",
+        "ext": "THP",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "GNU Info Reader file",
+        "header": "54 68 69 73 20 69 73 20",
+        "ext": "INFO",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Unicode extensions",
+        "header": "55 43 45 58",
+        "ext": "UCE",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "UFA compressed archive",
+        "header": "55 46 41 C6 D2 C1",
+        "ext": "UFA",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "UFO Capture map file",
+        "header": "55 46 4F 4F 72 62 69 74",
+        "ext": "DAT",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Measurement Data Format file",
+        "header": "55 6E 46 69 6E 4D 46",
+        "ext": "MF4",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Visual C PreCompiled header",
+        "header": "56 43 50 43 48 30",
+        "ext": "PCH",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Visual Basic User-defined Control file",
+        "header": "56 45 52 53 49 4F 4E 20",
+        "ext": "CTL",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MapInfo Interchange Format file",
+        "header": "56 65 72 73 69 6F 6E 20",
+        "ext": "MIF",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "SPSS template",
+        "header": "57 04 00 00 53 50 53 53 20 74 65 6D 70 6C 61 74",
+        "ext": "SCT",
+        "category": "Statistics",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "RIFF Windows Audio",
+        "header": "57 41 56 45 66 6D 74 20",
+        "ext": "WAV",
+        "category": "Multimedia",
+        "offset": 8,
+        "trailer": null
+    },
+    {
+        "desc": "RIFF WebP",
+        "header": "57 45 42 50",
+        "ext": "WEBP",
+        "category": "Multimedia",
+        "offset": 8,
+        "trailer": null
+    },
+    {
+        "desc": "Walkman MP3 file",
+        "header": "57 4D 4D 50",
+        "ext": "DAT",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "WordStar for Windows file",
+        "header": "57 53 32 30 30 30",
+        "ext": "WS2",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "WinZip compressed archive",
+        "header": "57 69 6E 5A 69 70",
+        "ext": "ZIP",
+        "category": "Compressed archive",
+        "offset": 29152,
+        "trailer": null
+    },
+    {
+        "desc": "Lotus WordPro file",
+        "header": "57 6F 72 64 50 72 6F",
+        "ext": "LWP",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Exchange e-mail",
+        "header": "58 2D",
+        "ext": "EML",
+        "category": "Email",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Packet sniffer files",
+        "header": "58 43 50 00",
+        "ext": "CAP",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "XPCOM libraries",
+        "header": "58 50 43 4F 4D 0A 54 79",
+        "ext": "XPT",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "SMPTE DPX file (little endian)",
+        "header": "58 50 44 53",
+        "ext": "DPX",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Publisher",
+        "header": "58 54",
+        "ext": "BDR",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "ZOO compressed archive",
+        "header": "5A 4F 4F 20",
+        "ext": "ZOO",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Macromedia Shockwave Flash",
+        "header": "5A 57 53",
+        "ext": "SWF",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Exchange configuration file",
+        "header": "5B 47 65 6E 65 72 61 6C",
+        "ext": "ECF",
+        "category": "Email",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Visual C++ Workbench Info File",
+        "header": "5B 4D 53 56 43",
+        "ext": "VCW",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Dial-up networking file",
+        "header": "5B 50 68 6F 6E 65 5D",
+        "ext": "DUN",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Lotus AMI Pro document",
+        "header": "5B 56 45 52 5D",
+        "ext": "SAM",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "VocalTec VoIP media file",
+        "header": "5B 56 4D 44 5D",
+        "ext": "VMD",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Microsoft Code Page Translation file",
+        "header": "5B 57 69 6E 64 6F 77 73",
+        "ext": "CPX",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Flight Simulator Aircraft Configuration",
+        "header": "5B 66 6C 74 73 69 6D 2E",
+        "ext": "CFG",
+        "category": "Games",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "WinAmp Playlist",
+        "header": "5B 70 6C 61 79 6C 69 73 74 5D",
+        "ext": "PLS",
+        "category": "Audio",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Lotus AMI Pro document",
+        "header": "5B 76 65 72 5D",
+        "ext": "SAM",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Husqvarna Designer",
+        "header": "5D FC C8 00",
+        "ext": "HUS",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Jar archive",
+        "header": "5F 27 A8 89",
+        "ext": "JAR",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "EnCase case file",
+        "header": "5F 43 41 53 45 5F",
+        "ext": "CAS|CBK",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Compressed archive file",
+        "header": "60 EA",
+        "ext": "ARJ",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "UUencoded file",
+        "header": "62 65 67 69 6E",
+        "ext": "",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "UUencoded BASE64 file",
+        "header": "62 65 67 69 6E 2D 62 61 73 65 36 34",
+        "ext": "b64",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": "0A 3D 3D 3D 3D 0A"
+    },
+    {
+        "desc": "Binary property list (plist)",
+        "header": "62 70 6C 69 73 74",
+        "ext": "",
+        "category": "System",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Apple Core Audio File",
+        "header": "63 61 66 66",
+        "ext": "CAF",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Macintosh encrypted Disk image (v1)",
+        "header": "63 64 73 61 65 6E 63 72",
+        "ext": "DMG",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Virtual PC HD image",
+        "header": "63 6F 6E 65 63 74 69 78",
+        "ext": "VHD",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Photoshop Custom Shape",
+        "header": "63 75 73 68 00 00 00 02",
+        "ext": "CSH",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Intel PROset-Wireless Profile",
+        "header": "64 00 00 00",
+        "ext": "P10",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Torrent file",
+        "header": "64 38 3A 61 6E 6E 6F 75 6E 63 65",
+        "ext": "TORRENT",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Dalvik (Android) executable file",
+        "header": "64 65 78 0A",
+        "ext": "dex",
+        "category": "Mobile",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Audacity audio file",
+        "header": "64 6E 73 2E",
+        "ext": "AU",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Visual Studio workspace file",
+        "header": "64 73 77 66 69 6C 65",
+        "ext": "DSW",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Macintosh encrypted Disk image (v2)",
+        "header": "65 6E 63 72 63 64 73 61",
+        "ext": "DMG",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "WinNT printer spool file",
+        "header": "66 49 00 00",
+        "ext": "SHD",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Free Lossless Audio Codec file",
+        "header": "66 4C 61 43 00 00 00 22",
+        "ext": "FLAC",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MPEG-4 video file",
+        "header": "66 74 79 70 33 67 70 35",
+        "ext": "MP4",
+        "category": "Multimedia",
+        "offset": 4,
+        "trailer": null
+    },
+    {
+        "desc": "Apple Lossless Audio Codec file",
+        "header": "66 74 79 70 4D 34 41 20",
+        "ext": "M4A",
+        "category": "Multimedia",
+        "offset": 4,
+        "trailer": null
+    },
+    {
+        "desc": "ISO Media-MPEG v4-iTunes AVC-LC",
+        "header": "66 74 79 70 4D 34 56 20",
+        "ext": "FLV|M4V",
+        "category": "Multimedia",
+        "offset": 4,
+        "trailer": null
+    },
+    {
+        "desc": "MPEG-4 video file",
+        "header": "66 74 79 70 4D 53 4E 56",
+        "ext": "MP4",
+        "category": "Multimedia",
+        "offset": 4,
+        "trailer": null
+    },
+    {
+        "desc": "ISO Base Media file (MPEG-4) v1",
+        "header": "66 74 79 70 69 73 6F 6D",
+        "ext": "MP4",
+        "category": "Multimedia",
+        "offset": 4,
+        "trailer": null
+    },
+    {
+        "desc": "MPEG-4 video-QuickTime file",
+        "header": "66 74 79 70 6D 70 34 32",
+        "ext": "M4V",
+        "category": "Multimedia",
+        "offset": 4,
+        "trailer": null
+    },
+    {
+        "desc": "QuickTime movie",
+        "header": "66 74 79 70 71 74 20 20",
+        "ext": "MOV",
+        "category": "Multimedia",
+        "offset": 4,
+        "trailer": null
+    },
+    {
+        "desc": "Win2000-XP printer spool file",
+        "header": "67 49 00 00",
+        "ext": "SHD",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "GIMP file",
+        "header": "67 69 6d 70 20 78 63 66",
+        "ext": "XCF",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Win Server 2003 printer spool file",
+        "header": "68 49 00 00",
+        "ext": "SHD",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MacOS icon file",
+        "header": "69 63 6E 73",
+        "ext": "ICNS",
+        "category": "System",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Skype user data file",
+        "header": "6C 33 33 6C",
+        "ext": "DBB",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "QuickTime movie",
+        "header": "6D 6F 6F 76",
+        "ext": "MOV",
+        "category": "Multimedia",
+        "offset": 4,
+        "trailer": null
+    },
+    {
+        "desc": "QuickTime movie",
+        "header": "66 72 65 65",
+        "ext": "MOV",
+        "category": "Multimedia",
+        "offset": 4,
+        "trailer": null
+    },
+    {
+        "desc": "QuickTime movie",
+        "header": "6D 64 61 74",
+        "ext": "MOV",
+        "category": "Multimedia",
+        "offset": 4,
+        "trailer": null
+    },
+    {
+        "desc": "QuickTime movie",
+        "header": "77 69 64 65",
+        "ext": "MOV",
+        "category": "Multimedia",
+        "offset": 4,
+        "trailer": null
+    },
+    {
+        "desc": "QuickTime movie",
+        "header": "70 6E 6F 74",
+        "ext": "MOV",
+        "category": "Multimedia",
+        "offset": 4,
+        "trailer": null
+    },
+    {
+        "desc": "QuickTime movie",
+        "header": "73 6B 69 70",
+        "ext": "MOV",
+        "category": "Multimedia",
+        "offset": 4,
+        "trailer": null
+    },
+    {
+        "desc": "Internet Explorer v11 Tracking Protection List",
+        "header": "6D 73 46 69 6C 74 65 72 4C 69 73 74",
+        "ext": "TPL",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MultiBit Bitcoin wallet information",
+        "header": "6D 75 6C 74 69 42 69 74 2E 69 6E 66 6F",
+        "ext": "INFO",
+        "category": "E-money",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "SMS text (SIM)",
+        "header": "6F 3C",
+        "ext": "",
+        "category": "Mobile",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "1Password 4 Cloud Keychain encrypted data",
+        "header": "6F 70 64 61 74 61 30 31",
+        "ext": "",
+        "category": "Encryption",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "WinNT registry file",
+        "header": "72 65 67 66",
+        "ext": "DAT",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Sonic Foundry Acid Music File",
+        "header": "72 69 66 66",
+        "ext": "AC",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "RealMedia metafile",
+        "header": "72 74 73 70 3A 2F 2F",
+        "ext": "RAM",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Allegro Generic Packfile (compressed)",
+        "header": "73 6C 68 21",
+        "ext": "DAT",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Allegro Generic Packfile (uncompressed)",
+        "header": "73 6C 68 2E",
+        "ext": "DAT",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PalmOS SuperMemo",
+        "header": "73 6D 5F",
+        "ext": "PDB",
+        "category": "Mobile",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "STL (STereoLithography) file",
+        "header": "73 6F 6C 69 64",
+        "ext": "STL",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "CALS raster bitmap",
+        "header": "73 72 63 64 6F 63 69 64",
+        "ext": "CAL",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PowerBASIC Debugger Symbols",
+        "header": "73 7A 65 7A",
+        "ext": "PDB",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PathWay Map file",
+        "header": "74 42 4D 50 4B 6E 57 72",
+        "ext": "PRC",
+        "category": "Mobile",
+        "offset": 60,
+        "trailer": null
+    },
+    {
+        "desc": "TrueType font",
+        "header": "74 72 75 65 00",
+        "ext": "TTF",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Tape Archive",
+        "header": "75 73 74 61 72",
+        "ext": "TAR",
+        "category": "Compressed archive",
+        "offset": 257,
+        "trailer": null
+    },
+    {
+        "desc": "OpenEXR bitmap image",
+        "header": "76 2F 31 01",
+        "ext": "EXR",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Qimage filter",
+        "header": "76 32 30 30 33 2E 31 30",
+        "ext": "FLT",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Web Open Font Format 2",
+        "header": "77 4F 46 32",
+        "ext": "WOFF2",
+        "category": "Open font",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Web Open Font Format",
+        "header": "77 4F 46 46",
+        "ext": "WOFF",
+        "category": "Open font",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MacOS X image file",
+        "header": "78 01 73 0D 62 62 60",
+        "ext": "DMG",
+        "category": "MacOS",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "eXtensible ARchive file",
+        "header": "78 61 72 21",
+        "ext": "XAR",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "ZoomBrowser Image Index",
+        "header": "7A 62 65 78",
+        "ext": "INFO",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows application log",
+        "header": "7B 0D 0A 6F 20",
+        "ext": "LGC|LGD",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Google Drive Drawing link",
+        "header": "7B 22 75 72 6C 22 3A 20 22 68 74 74 70 73 3A 2F",
+        "ext": "GDRAW",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS WinMobile personal note",
+        "header": "7B 5C 70 77 69",
+        "ext": "PWI",
+        "category": "Mobile",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Rich Text Format",
+        "header": "7B 5C 72 74 66 31",
+        "ext": "RTF",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": "5C 70 61 72 20 7D 7D"
+    },
+    {
+        "desc": "Huskygram Poem or Singer embroidery",
+        "header": "7C 4B C3 74 E1 C8 53 A4 79 B9 01 1D FC 4F DD 13",
+        "ext": "CSD",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Corel Paint Shop Pro image",
+        "header": "7E 42 4B 00",
+        "ext": "PSP",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Easy Street Draw diagram file",
+        "header": "7E 45 53 44 77 F6 85 3E BF 6A D2 11 45 61 73 79 20 53 74 72 65 65 74 20 44 72 61 77",
+        "ext": "ESD",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Digital Watchdog DW-TP-500G audio",
+        "header": "7E 74 2C 01 50 70 02 4D 52",
+        "ext": "IMG",
+        "category": "Audio",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "ELF executable",
+        "header": "7F 45 4C 46",
+        "ext": "",
+        "category": "Linux-Unix",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Relocatable object code",
+        "header": "80",
+        "ext": "OBJ",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Dreamcast audio",
+        "header": "80 00 00 20 03 12 04",
+        "ext": "ADX",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Kodak Cineon image",
+        "header": "80 2A 5F D7",
+        "ext": "CIN",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Outlook Express address book (Win95)",
+        "header": "81 32 84 C1 85 05 D0 11",
+        "ext": "WAB",
+        "category": "Email",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "WordPerfect text",
+        "header": "81 CD AB",
+        "ext": "WPF",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PNG image",
+        "header": "89 50 4E 47 0D 0A 1A 0A",
+        "ext": "PNG",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": "49 45 4E 44 AE 42 60 82"
+    },
+    {
+        "desc": "MS Answer Wizard",
+        "header": "8A 01 09 00 00 00 E1 08",
+        "ext": "AW",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Hamarsoft compressed archive",
+        "header": "91 33 48 46",
+        "ext": "HAP",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PGP secret keyring",
+        "header": "95 00",
+        "ext": "SKR",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PGP secret keyring",
+        "header": "95 01",
+        "ext": "SKR",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "JBOG2 image file",
+        "header": "97 4A 42 32 0D 0A 1A 0A",
+        "ext": "JB2",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": "03 33 00 01 00 00 00 00"
+    },
+    {
+        "desc": "GPG public keyring",
+        "header": "99",
+        "ext": "GPG",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PGP public keyring",
+        "header": "99 01",
+        "ext": "PKR",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Outlook address file",
+        "header": "9C CB CB 8D 13 75 D2 11",
+        "ext": "WAB",
+        "category": "Email",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "tcpdump (libpcap) capture file",
+        "header": "A1 B2 C3 D4",
+        "ext": "",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Extended tcpdump (libpcap) capture file",
+        "header": "A1 B2 CD 34",
+        "ext": "",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Access Data FTK evidence",
+        "header": "A9 0D 00 00 00 00 00 00",
+        "ext": "DAT",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Khronos texture file",
+        "header": "AB 4B 54 58 20 31 31 BB 0D 0A 1A 0A",
+        "ext": "KTX",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Quicken data",
+        "header": "AC 9E BD 8F 00 00",
+        "ext": "QDF",
+        "category": "Finance",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PowerPoint presentation subheader",
+        "header": "A0 46 1D F0",
+        "ext": "PPT",
+        "category": "Presentation",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "Java serialization data",
+        "header": "AC ED",
+        "ext": "",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "BGBlitz position database file",
+        "header": "AC ED 00 05 73 72 00 12",
+        "ext": "PDB",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Win95 password file",
+        "header": "B0 4D 46 43",
+        "ext": "PWL",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "PCX bitmap",
+        "header": "B1 68 DE 3A",
+        "ext": "DCX",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Acronis True Image",
+        "header": "B4 6E 68 44",
+        "ext": "TIB",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows calendar",
+        "header": "B5 A2 B0 B3 B3 B0 A5 B5",
+        "ext": "CAL",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "InstallShield Script",
+        "header": "B8 C9 0C 00",
+        "ext": "INS",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Write file",
+        "header": "BE 00 00 00 AB",
+        "ext": "WRI",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Palm Desktop DateBook",
+        "header": "BE BA FE CA 0F 50 61 6C 6D 53 47 20 44 61 74 61",
+        "ext": "DAT",
+        "category": "Mobile",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Agent Character file",
+        "header": "C3 AB CD AB",
+        "ext": "ACS",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Adobe encapsulated PostScript",
+        "header": "C5 D0 D3 C6",
+        "ext": "EPS",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Jeppesen FliteLog file",
+        "header": "C8 00 79 00",
+        "ext": "LBK",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Java bytecode",
+        "header": "CA FE BA BE",
+        "ext": "CLASS",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Nokia phone backup file",
+        "header": "CC 52 33 FC E9 2C 18 48 AF E3 36 30 1A 39 40 06",
+        "ext": "NBU",
+        "category": "Mobile",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "NAV quarantined virus file",
+        "header": "CD 20 AA AA 02 00 00 00",
+        "ext": "",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Acronis True Image",
+        "header": "CE 24 B9 A2 20 00 00 00",
+        "ext": "TIB",
+        "category": "Multimedia",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Java Cryptography Extension keystore",
+        "header": "CE CE CE CE",
+        "ext": "JCEKS",
+        "category": "Encryption",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "OS X ABI Mach-O binary (32-bit reverse)",
+        "header": "CE FA ED FE",
+        "ext": "",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Perfect Office document",
+        "header": "CF 11 E0 A1 B1 1A E1 00",
+        "ext": "DOC",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Outlook Express e-mail folder",
+        "header": "CF AD 12 FE",
+        "ext": "DBX",
+        "category": "Email",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "OS X ABI Mach-O binary (64-bit reverse)",
+        "header": "CF FA ED FE",
+        "ext": "",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Microsoft Office document",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "DOC|DOT|PPS|PPT|XLA|XLS|WIZ",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "CaseWare Working Papers",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "AC_",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Access project file",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "ADP",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Lotus-IBM Approach 97 file",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "APR",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MSWorks database file",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "DB",
+        "category": "Database",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Microsoft Common Console Document",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "MSC",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Microsoft Installer package",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "MSI",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Microsoft Installer Patch",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "MSP",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Minitab data file",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "MTW",
+        "category": "Statistics",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "ArcMap GIS project file",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "MXD",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Developer Studio File Options file",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "OPT",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Publisher file",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "PUB",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Revit Project file",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "RVT",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Visual Studio Solution User Options file",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "SOU",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "SPSS output file",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "SPO",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Visio file",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "VSD",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MSWorks text document",
+        "header": "D0 CF 11 E0 A1 B1 1A E1",
+        "ext": "WPS",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "WinPharoah filter file",
+        "header": "D2 0A 00 00",
+        "ext": "FTR",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "AOL history|typed URL files",
+        "header": "D4 2A",
+        "ext": "ARL|AUT",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "WinDump (winpcap) capture file",
+        "header": "D4 C3 B2 A1",
+        "ext": "",
+        "category": "Network",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows graphics metafile",
+        "header": "D7 CD C6 9A",
+        "ext": "WMF",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Word 2.0 file",
+        "header": "DB A5 2D 00",
+        "ext": "DOC",
+        "category": "Word processing",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Corel color palette",
+        "header": "DC DC",
+        "ext": "CPL",
+        "category": "Presentation",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "eFax file",
+        "header": "DC FE",
+        "ext": "EFX",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Amiga icon",
+        "header": "E3 10 00 01 00 00 00 00",
+        "ext": "INFO",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Win98 password file",
+        "header": "E3 82 85 96",
+        "ext": "PWL",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS OneNote note",
+        "header": "E4 52 5C 7B 8C D8 A7 4D",
+        "ext": "ONE",
+        "category": "Miscellaneous",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows executable",
+        "header": "E8",
+        "ext": "COM|SYS",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows executable",
+        "header": "E9",
+        "ext": "COM|SYS",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows executable",
+        "header": "EB",
+        "ext": "COM|SYS",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "GEM Raster file",
+        "header": "EB 3C 90 2A",
+        "ext": "IMG",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "BitLocker boot sector (Vista)",
+        "header": "EB 52 90 2D 46 56 45 2D",
+        "ext": "",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "BitLocker boot sector (Win7)",
+        "header": "EB 58 90 2D 46 56 45 2D",
+        "ext": "",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Word document subheader",
+        "header": "EC A5 C1 00",
+        "ext": "DOC",
+        "category": "Word processing suite",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "RedHat Package Manager",
+        "header": "ED AB EE DB",
+        "ext": "RPM",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "UTF-8 file",
+        "header": "EF BB BF",
+        "ext": "",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows Script Component (UTF-8)",
+        "header": "EF BB BF 3C",
+        "ext": "WSF",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows Script Component (UTF-8)",
+        "header": "EF BB BF 3C 3F",
+        "ext": "WSC",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "YouTube Timed Text (subtitle) file",
+        "header": "EF BB BF 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E",
+        "ext": "YTT",
+        "category": "Video",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "FAT12 File Allocation Table",
+        "header": "F0 FF FF",
+        "ext": "",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "FAT16 File Allocation Table",
+        "header": "F8 FF FF FF",
+        "ext": "",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "FAT32 File Allocation Table",
+        "header": "F8 FF FF 0F FF FF FF 0F",
+        "ext": "",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "FAT32 File Allocation Table",
+        "header": "F8 FF FF 0F FF FF FF FF",
+        "ext": "",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Bitcoin-Qt blockchain block file",
+        "header": "F9 BE B4 D9",
+        "ext": "DAT",
+        "category": "E-money",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "XZ archive",
+        "header": "FD 37 7A 58 5A 00",
+        "ext": "XZ",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MS Publisher subheader",
+        "header": "FD 37 7A 58 5A 00",
+        "ext": "PUB",
+        "category": "Word processing",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "Thumbs.db subheader",
+        "header": "FD FF FF FF",
+        "ext": "DB",
+        "category": "Windows",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "MS Publisher file subheader",
+        "header": "FD FF FF FF 02",
+        "ext": "PUB",
+        "category": "Word processing suite",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "Microsoft Outlook-Exchange Message",
+        "header": "FD FF FF FF 04",
+        "ext": "MSG",
+        "category": "Email",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "QuickBooks Portable Company File",
+        "header": "FD FF FF FF 04",
+        "ext": "QBM",
+        "category": "Financial",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "Visual Studio Solution subheader",
+        "header": "FD FF FF FF 04",
+        "ext": "SUO",
+        "category": "Programming",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "PowerPoint presentation subheader",
+        "header": "FD FF FF FF 0E 00 00 00",
+        "ext": "PPT",
+        "category": "Presentation",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "Excel spreadsheet subheader",
+        "header": "FD FF FF FF 10",
+        "ext": "XLS",
+        "category": "Spreadsheet",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "PowerPoint presentation subheader",
+        "header": "FD FF FF FF 1C 00 00 00",
+        "ext": "PPT",
+        "category": "Presentation",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "Excel spreadsheet subheader",
+        "header": "FD FF FF FF 1F",
+        "ext": "XLS",
+        "category": "Spreadsheet",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "Developer Studio subheader",
+        "header": "FD FF FF FF 20",
+        "ext": "OPT",
+        "category": "Programming",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "Excel spreadsheet subheader",
+        "header": "FD FF FF FF 22",
+        "ext": "XLS",
+        "category": "Spreadsheet",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "Excel spreadsheet subheader",
+        "header": "FD FF FF FF 23",
+        "ext": "XLS",
+        "category": "Spreadsheet",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "Excel spreadsheet subheader",
+        "header": "FD FF FF FF 28",
+        "ext": "XLS",
+        "category": "Spreadsheet",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "Excel spreadsheet subheader",
+        "header": "FD FF FF FF 29",
+        "ext": "XLS",
+        "category": "Spreadsheet",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "PowerPoint presentation subheader",
+        "header": "FD FF FF FF 43 00 00 00",
+        "ext": "PPT",
+        "category": "Presentation",
+        "offset": 512,
+        "trailer": null
+    },
+    {
+        "desc": "OS X ABI Mach-O binary (32-bit)",
+        "header": "FE ED FA CE",
+        "ext": "",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "OS X ABI Mach-O binary (64-bit)",
+        "header": "FE ED FA CF",
+        "ext": "",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "JavaKeyStore",
+        "header": "FE ED FE ED",
+        "ext": "",
+        "category": "Programming",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Symantex Ghost image file",
+        "header": "FE EF",
+        "ext": "GHO|GHS",
+        "category": "Compressed archive",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "UTF-16-UCS-2 file",
+        "header": "FE FF",
+        "ext": "",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows executable",
+        "header": "FF",
+        "ext": "SYS",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Works for Windows spreadsheet",
+        "header": "FF 00 02 00 04 04 05 54",
+        "ext": "WKS",
+        "category": "Spreadsheet",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "QuickReport Report",
+        "header": "FF 0A 00",
+        "ext": "QRP",
+        "category": "Financial",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows international code page",
+        "header": "FF 46 4F 4E 54",
+        "ext": "CPI",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Keyboard driver file",
+        "header": "FF 4B 45 59 42 20 20 20",
+        "ext": "SYS",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "WordPerfect text and graphics",
+        "header": "FF 57 50 43",
+        "ext": "WP|WPD|WPG|WPP|WP5|WP6",
+        "category": "Word processing suite",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "JPEG-EXIF-SPIFF images",
+        "header": "FF D8 FF",
+        "ext": "JFIF|JPE|JPEG|JPG",
+        "category": "Picture",
+        "offset": 0,
+        "trailer": "FF D9"
+    },
+    {
+        "desc": "MPEG-4 AAC audio",
+        "header": "FF F1",
+        "ext": "AAC",
+        "category": "Audio",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MPEG-2 AAC audio",
+        "header": "FF F9",
+        "ext": "AAC",
+        "category": "Audio",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "Windows Registry file",
+        "header": "FF FE",
+        "ext": "REG",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "UTF-32-UCS-2 file",
+        "header": "FF FE",
+        "ext": "",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "UTF-32-UCS-4 file",
+        "header": "FF FE 00 00",
+        "ext": "",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "MSinfo file",
+        "header": "FF FE 23 00 6C 00 69 00",
+        "ext": "MOF",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    },
+    {
+        "desc": "DOS system driver",
+        "header": "FF FF FF FF",
+        "ext": "SYS",
+        "category": "Windows",
+        "offset": 0,
+        "trailer": null
+    }
+]
